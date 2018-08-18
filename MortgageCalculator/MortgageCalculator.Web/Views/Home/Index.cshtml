@@ -1,0 +1,113 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    @*<script src="~/Scripts/jquery-1.10.2.min.js"></script>*@
+    @section scripts {
+    @Scripts.Render("~/bundles/bootstrap")
+    @Styles.Render("~/Content/css")
+        @Scripts.Render("~/bundles/Mortgages")    
+    }
+    
+</head>
+<div class="jumbotron">
+    <h1>Mortgage Calculator</h1>
+    <p class="lead">
+        The Mortgage Calculator helps you:
+        <ul>
+            <li>Choose the right loan for you</li>
+            <li>The Interests and Repayment on your loan</li>
+        </ul>
+    </p>
+</div>
+
+
+<div class="row">
+    <div class="col-md-12">
+        <form class="form-horizontal">
+            <fieldset>
+
+                <!-- Form Name -->
+                <legend>Calculator</legend>
+                
+                <!-- Text input-->
+                <div class="form-group">
+                    
+                    <label class="col-md-5 control-label" for="textinput">Borrowed Amount</label>
+                    <div class="col-md-5">
+                        <input id="textinput" name="textinput" type="text" placeholder="0.00" class="form-control input-md" required="">
+                        <span class="help-block">Enter the amount to borrow</span>
+                        <span class="error" style="color: Red; display: none">* Input digits (0 - 9)</span>
+                    </div>
+                    <label class="col-md-5 control-label" for="textinput">Duration</label>
+                    <div class="col-md-5">
+                        <input id="textinputYears" name="textinputYears" type="text" class="form-control input-md" required="">
+                        <span class="help-block">Enter the Loan Duration(in Years)</span>
+                        <span class="error" style="color: Red; display: none">* Input digits (0 - 9)</span>
+                    </div>
+                    <label class="col-md-5 control-label" for="textinput">Calculate</label>
+                    <div class="col-md-5">
+                        <input type="button" id="btnCalculator" name="btnCalc"  value="Calculate">
+                     </div>
+                </div>
+                <div id="divAlertMsg" class="row hide alert-danger text-center">
+                    <span class="error text-center" style="color: Red;">Please enter Data for calculation</span>
+                </div>
+                <div>
+                    <input type="button" id="btnShowMortgages" value="Get Mortgages" />
+                    <table id="tableMortgages"></table>
+                </div>
+                
+            </fieldset>
+        </form>
+    </div>
+    </div>
+    <div class="row">
+        <div class="modal fade" tabindex="-1" id="viewMortgage" data-keyboard="false" data-backdrop="static">
+            <div class="modal-dialog modal-sm">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">
+                            &times;
+                        </button>
+                        <h4>View Mortgage</h4>
+                    </div>
+                    <div class="modal-body">
+                        <table id="tableViewMortgages"></table>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" data-dismiss="modal" class="btn btn-success">
+                            close
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="row">
+        <div class="modal fade" tabindex="-1" id="CalcMortgage" data-keyboard="false" data-backdrop="static">
+            <div class="modal-dialog modal-sm">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">
+                            &times;
+                        </button>
+                        <h4>Mortgage Calculation</h4>
+                    </div>
+                    <div class="modal-body">
+                        <table id="tableCalcMortgages"></table>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" data-dismiss="modal" class="btn btn-success">
+                            close
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>

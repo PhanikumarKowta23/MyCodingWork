@@ -1,0 +1,15 @@
+D:\Projects\MortgageCalculator\MortgageCalculator.Dto\bin\Debug\MortgageCalculator.Dto.dll
+D:\Projects\MortgageCalculator\MortgageCalculator.Dto\bin\Debug\MortgageCalculator.Dto.pdb
+D:\Projects\MortgageCalculator\MortgageCalculator.Dto\obj\Debug\MortgageCalculator.Dto.csproj.CoreCompileInputs.cache
+D:\Projects\MortgageCalculator\MortgageCalculator.Dto\obj\Debug\MortgageCalculator.Dto.dll
+D:\Projects\MortgageCalculator\MortgageCalculator.Dto\obj\Debug\MortgageCalculator.Dto.pdb
+D:\DataAshMoollan\Recruitment\ASP Coding Test\MortgageCalculator\MortgageCalculator.Dto\bin\Debug\MortgageCalculator.Dto.dll
+D:\DataAshMoollan\Recruitment\ASP Coding Test\MortgageCalculator\MortgageCalculator.Dto\bin\Debug\MortgageCalculator.Dto.pdb
+D:\DataAshMoollan\Recruitment\ASP Coding Test\MortgageCalculator\MortgageCalculator.Dto\obj\Debug\MortgageCalculator.Dto.csproj.CoreCompileInputs.cache
+D:\DataAshMoollan\Recruitment\ASP Coding Test\MortgageCalculator\MortgageCalculator.Dto\obj\Debug\MortgageCalculator.Dto.dll
+D:\DataAshMoollan\Recruitment\ASP Coding Test\MortgageCalculator\MortgageCalculator.Dto\obj\Debug\MortgageCalculator.Dto.pdb
+F:\HclProject\MortgageCalculator\MortgageCalculator.Dto\bin\Debug\MortgageCalculator.Dto.dll
+F:\HclProject\MortgageCalculator\MortgageCalculator.Dto\bin\Debug\MortgageCalculator.Dto.pdb
+F:\HclProject\MortgageCalculator\MortgageCalculator.Dto\obj\Debug\MortgageCalculator.Dto.csprojResolveAssemblyReference.cache
+F:\HclProject\MortgageCalculator\MortgageCalculator.Dto\obj\Debug\MortgageCalculator.Dto.dll
+F:\HclProject\MortgageCalculator\MortgageCalculator.Dto\obj\Debug\MortgageCalculator.Dto.pdb

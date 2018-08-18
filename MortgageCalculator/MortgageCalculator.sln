@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MortgageCalculator.Web", "MortgageCalculator.Web\MortgageCalculator.Web.csproj", "{B899BA79-2CDF-4125-8154-517070193A87}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MortgageCalculator.UnitTests", "MortgageCalculator.UnitTests\MortgageCalculator.UnitTests.csproj", "{59759B85-0BED-49B9-A568-A232D425D010}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MortgageCalculator.Api", "MortgageCalculator.Api\MortgageCalculator.Api.csproj", "{DB707F8C-25F5-4347-8E67-457050BF88C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MortgageCalculator.Dto", "MortgageCalculator.Dto\MortgageCalculator.Dto.csproj", "{B0628D9A-6370-4FDF-B285-D8092A057622}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6B5E0C29-3A75-4990-A1E9-0973E7610E7C}"
+	ProjectSection(SolutionItems) = preProject
+		Instructions.txt = Instructions.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B899BA79-2CDF-4125-8154-517070193A87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B899BA79-2CDF-4125-8154-517070193A87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B899BA79-2CDF-4125-8154-517070193A87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B899BA79-2CDF-4125-8154-517070193A87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59759B85-0BED-49B9-A568-A232D425D010}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59759B85-0BED-49B9-A568-A232D425D010}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59759B85-0BED-49B9-A568-A232D425D010}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59759B85-0BED-49B9-A568-A232D425D010}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB707F8C-25F5-4347-8E67-457050BF88C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB707F8C-25F5-4347-8E67-457050BF88C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB707F8C-25F5-4347-8E67-457050BF88C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB707F8C-25F5-4347-8E67-457050BF88C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0628D9A-6370-4FDF-B285-D8092A057622}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0628D9A-6370-4FDF-B285-D8092A057622}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0628D9A-6370-4FDF-B285-D8092A057622}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0628D9A-6370-4FDF-B285-D8092A057622}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {08382F61-030E-4FB6-91CC-75304575F348}
+	EndGlobalSection
+EndGlobal

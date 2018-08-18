@@ -1,0 +1,49 @@
+====BRIEF====
+
+You are the developer for a fictitious bank working on a website mortgage calculator.
+
+The application uses a custom library that provides the necessary underlying data, provided in MortgageData.dll. The mortgage data is exposed by a MortgageDataContext and returns an IQueryable results of the mortgage data
+
+This project has been started by a previous developer, and left unfinished. You are expected to pick up the solution and complete the application.
+
+High level tasks
+
+The code follows a N-Tier Microservice pattern. Web > API > MortgageData.dll. The expectation is that the solution is built in .NET and the front end is built in MVC
+The recommended javascript library is JQuery, however the candidate is free to pick an alternate, or a SPA solution if preferred.
+
+The code does not currently compile. You are required to troubleshoot and bring the code up to a state where it compiles.
+Implement the following:
+
+1) Fetch active mortgages from the datasource and display on the web page
+2) Sort the mortgages by type, then by interest rate
+2) Allow the user to select a mortgage type
+3) Allow the user to enter their loan amount and Loan duration (in years), and work out the following
+ - Total repayment over the lifetime of the loan
+ - Amount paid in interest over the life of the loan
+ 
+Note:  Calling the third party data source is costly and data only gets updated every 24 hours. 
+
+Your code should also demonstrate how you validated the accuracy of your implementation.
+
+====NOTES====
+
+Please send completed response back as a 7z file (http://sourceforge.net/projects/sevenzip/files/7-Zip/9.20/7z920.msi/download?use_mirror=aarnet).
+
+
+We can't provide any more information, so please make assumptions if you have any questions. 
+If you like, you can include documentation/readme on these assumptions, please include in the 7z file.
+
+
+Take as long as you like, most candidates spend a few hours on this.
+
+
+====HINTS====
+
+1. follow the brief!
+
+2. You should use this opportunity to demonstrate that you have the technical knowledge to be successful in a senior developer position.
+
+Remember that a senior developer will be a person who is not just an “order taker” that does the work, but is someone who can provide input to design decisions, follow best practices, perform peer reviews, and mentoring other developers.
+
+
+
